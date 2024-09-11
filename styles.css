@@ -1,0 +1,20 @@
+/*comment*/
+
+body {
+    background: rgb(67, 213, 154);
+    font-family: Helvetica, sans-serif;
+    margin: 15px;
+}
+h1 { 
+    color: rgb(77, 39, 16);
+    text-align: center;
+}
+h2 { 
+   color: black;
+   text-align: center;
+}
+/*
+para1 {
+    color: green
+}
+*/
