@@ -5,22 +5,48 @@ body {
     font-family: Helvetica, sans-serif, Arial;
     text-align: center;
 }
+
 h1 { 
     color: rgb(77, 39, 16);
 }
+
 h2 {
    color: black;
 }
 
 .projects { 
-    display:flex; 
-    flex-wrap:wrap; 
+    display: flex; 
+    flex-wrap: wrap; 
 } 
 
 .project {
-width: 45%;
-margin: 20px;
+width: 30%;
+margin-top: 10px; 
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
 padding: 20px 10px;
-background: white; /* pick a color */
+background: rgb(37,124,163); /* pick a color */
 border-radius: 3%;
+border: solid rgb(0, 0, 0);
+}
+
+.project img {
+    width: 100%;
+    border: 3px solid rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(40, 40, 40);
+}
+
+.project img:hover {
+    border: 3px solid rgb(40, 40, 40);
 }
