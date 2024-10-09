@@ -44,9 +44,9 @@ a {
 }
 
 a:hover {
-    color: rgb(40, 40, 40);
+    color: rgb(50, 50, 50);
 }
 
 .project img:hover {
-    border: 3px solid rgb(40, 40, 40);
+    border: 3px solid rgb(150, 150, 150);
 }
