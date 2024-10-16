@@ -20,20 +20,20 @@ h2 {
 } 
 
 .project {
-width: 30%;
-margin-top: 10px; 
-margin-bottom: 10px;
-margin-left: auto;
-margin-right: auto;
-padding: 20px 10px;
-background: rgb(37,124,163); /* pick a color */
-border-radius: 3%;
-border: solid rgb(0, 0, 0);
+width: 30%;             /* percentage of the screen each block takes up */
+margin-top: 10px;       /* space above the block */
+margin-bottom: 10px;    /* space below the block */
+margin-left: auto;      /* space to the left of the block */
+margin-right: auto;     /* space to the right of the block */
+padding: 10px 10px;     /* thickness of the padding? */
+background: #257ca3;             /* color */
+border-radius: 3%;                 /* roudness of the corners*/
+border: solid rgb(0, 0, 0);      /* border color */
 }
 
 .project img {
-    width: 100%;
-    border: 3px solid rgb(0, 0, 0);
+    width: 90%;     /* makes the width x% of the block */
+    border: 3px solid rgb(0, 0, 0); /* border width*/
     display: block;
     margin: auto;
 }
@@ -43,10 +43,16 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+/* hover makes things change color when the cursor is hovering over it */
+a:hover {   
     color: rgb(40, 40, 40);
 }
 
 .project img:hover {
     border: 3px solid rgb(150, 150, 150);
+}
+
+#tallimg{
+    height: 50%;
+    width: auto;
 }
