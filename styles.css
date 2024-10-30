@@ -63,6 +63,9 @@ a:hover {
     margin-right: 100px;
     margin-left: 100px;
     justify-content: center;
+    padding: 20px 20px;   
+    background: #257ca3;
+    border: solid rgb(0, 0, 0); 
 }
 
 .about img {
@@ -73,7 +76,7 @@ a:hover {
 }
 
 .about p {
-    width: 80%;
+    width: 70%;
     text-align: center;
     margin: auto;
     line-height: 125%;
