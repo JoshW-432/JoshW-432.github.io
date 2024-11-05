@@ -81,3 +81,7 @@ a:hover {
     margin: auto;
     line-height: 125%;
 }
+
+.contact h3:hover {
+    color: rgb(100, 100, 100);
+}
