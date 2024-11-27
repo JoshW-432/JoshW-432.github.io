@@ -58,8 +58,8 @@ a:hover {
 }
 
 .about {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     margin-right: 100px;
     margin-left: 100px;
     justify-content: center;
@@ -84,4 +84,15 @@ a:hover {
 
 .contact h3:hover {
     color: rgb(100, 100, 100);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 33%;
+    margin-left: 33%;
+    justify-content: center;
+    padding: 20px 20px;   
+    background: #257ca3;
+    border: solid rgb(0, 0, 0); 
 }
