@@ -1,13 +1,13 @@
 /*comment*/
 
 body {
-    background: rgb(67, 213, 154);
+    background: #257ca3;
     font-family: Helvetica, sans-serif, Arial;
     text-align: center;
 }
 
 h1 { 
-    color: rgb(77, 39, 16);
+    color: rgb(0, 0, 0);
 }
 
 h2 {
@@ -20,15 +20,15 @@ h2 {
 } 
 
 .project {
-width: 30%;             /* percentage of the screen each block takes up */
-margin-top: 10px;       /* space above the block */
-margin-bottom: 10px;    /* space below the block */
-margin-left: auto;      /* space to the left of the block */
-margin-right: auto;     /* space to the right of the block */
-padding: 10px 10px;     /* thickness of the padding? */
-background: #257ca3;             /* color */
-border-radius: 3%;                 /* roudness of the corners*/
-border: solid rgb(0, 0, 0);      /* border color */
+    width: 30%;             /* percentage of the screen each block takes up */
+    margin-top: 10px;       /* space above the block */
+    margin-bottom: 10px;    /* space below the block */
+    margin-left: auto;      /* space to the left of the block */
+    margin-right: auto;     /* space to the right of the block */
+    padding: 10px 10px;     /* thickness of the padding? */
+    background: rgb(48, 163, 102);             /* color */
+    border-radius: 3%;                 /* roudness of the corners*/
+    border: solid rgb(0, 0, 0);      /* border color */
 }
 
 .project img {
@@ -64,7 +64,7 @@ a:hover {
     margin-left: 100px;
     justify-content: center;
     padding: 20px 20px;   
-    background: #257ca3;
+    background: rgb(48, 163, 102);
     border: solid rgb(0, 0, 0); 
 }
 
@@ -93,6 +93,17 @@ a:hover {
     margin-left: 33%;
     justify-content: center;
     padding: 20px 20px;   
-    background: #257ca3;
+    background: rgb(48, 163, 102);
     border: solid rgb(0, 0, 0); 
+}
+
+.indexProject {
+    width: 30%;             /* percentage of the screen each block takes up */
+    margin-top: 10px;       /* space above the block */
+    margin-bottom: 10px;    /* space below the block */
+    margin-left: auto;      /* space to the left of the block */
+    margin-right: auto;     /* space to the right of the block */
+    padding: 10px 10px;     /* thickness of the padding? */
+    background: rgb(48, 163, 102);             /* color */
+    border: solid rgb(0, 0, 0);      /* border color */
 }
